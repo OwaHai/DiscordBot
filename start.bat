@@ -11,7 +11,7 @@ cls
 
 :done
 node bot.js
-echo Bot failled to start. retry?
+echo Bot failled to start. retrying
 pause
 goto start
 cls
