@@ -6,8 +6,6 @@ client.on('ready', () => {
   console.log(`Ready.`);
 });
 
-const prefix = "%";
-
 client.on("message", (message) => {
   if (!message.content.startsWith(prefix) || message.author.bot) return;
   
