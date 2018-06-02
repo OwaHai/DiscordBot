@@ -7,4 +7,4 @@ Click '**New app**' name your bot any you want like ***super-bot*** and then scr
 # Step 3
 you need to download the bot, click '**clone or download**' on github, after it has finished downloading, extract the zip file, and then open the file config.json in the bot's folder, and where '**token**' is at, go back to the page that you created you bot at [here](https://discordapp.com/developers/applications/me) and copy the token
 # Last step
-Download NPM [for windows](https://nodejs.org/dist/v10.3.0/node-v10.3.0-x64.msi) or [download NPM for macOS](https://nodejs.org/dist/v10.3.0/node-v10.3.0.pkg). after installing, open the folder you bot is in and open install.bat, or macOS users, please cd to your bot's folder and type in `npm install discord.js`.
+Download NPM [for windows](https://nodejs.org/dist/v10.3.0/node-v10.3.0-x64.msi) or [download NPM for macOS](https://nodejs.org/dist/v10.3.0/node-v10.3.0.pkg). after installing, open the folder you bot is in and open install.bat, or macOS users, please cd to your bot's folder and type in `npm install discord.js`, and then open `start.bat` and for macOS users, please cd to your bot's file and type in `node bot.js`.
