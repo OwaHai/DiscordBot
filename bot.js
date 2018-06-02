@@ -10,12 +10,13 @@ client.on("message", (message) => {
   if (!message.content.startsWith(prefix) || message.author.bot) return;
   
   if (message.content.startsWith(prefix + "ping")) {
-    message.channel.send("Pong! `" + client.ping + "`ms);
+    message.channel.send("Pong! `" + client.ping + "`ms");
   } else
   if (message.content.startsWith(prefix + "hello")) {
     message.channel.send({embed: {
   color: 3447003,
   title: "Hello, " + message.author +"."
+}})
   }
 });
 
