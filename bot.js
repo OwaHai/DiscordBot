@@ -15,7 +15,7 @@ client.on("message", (message) => {
   if (message.content.startsWith(prefix + "hello")) {
     message.channel.send({embed: {
   color: 3447003,
-  title: "Hello, " + message.author +".,
+  title: "Hello, " + message.author +"."
   }
 });
 
